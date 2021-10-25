@@ -1,0 +1,68 @@
+
+/* The styles for the elements */
+
+:root{
+    --main-color:#e8786e;
+    --black:#555;
+    --light-color:#777;
+    --bg:#fceae9;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+
+label {
+    float: left;
+    width: 15em;
+    margin-bottom: 0.5em;
+    /*font-weight: bold;*/
+}
+input[type="text"], input[type="email"] {  /* An attribute selector */
+    width: 20em;
+    margin-left: -10em;
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+
+.btn{
+    /*width: 40%;*/
+    text-align: center;
+    margin-top: 1rem;
+    display: inline-block;
+    /*padding:.10rem 3rem;*/
+    font-size: 1.3rem;
+    /*cursor: pointer;*/
+    color:#fff;
+    background:var(--main-color);
+    border-radius: .5rem;
+    /*box-shadow: var(--box-shadow);*/
+    /*position: relative;*/
+    /*z-index: 0;*/
+    overflow:hidden;
+    transition: 0.5s;
+}
+.btn:hover{
+    font-size: 1.3rem;
+    /*width: 45%;*/
+    background: lightgreen;
+}
+.fo{
+    /*margin: 20% 0% 90% 90%;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    /*border-style: outset;*/
+    overflow:hidden;
+    text-align: center;
+    /*margin-left: -20px;*/
+    /*/*width: 700px;*/
+    /*/*height: auto;*/
+    background: white;
+    /*border-radius: .5rem;*/;
+}

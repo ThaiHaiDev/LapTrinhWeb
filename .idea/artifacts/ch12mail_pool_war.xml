@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch12mail_pool:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/ch12mail_pool_war</output-path>
+    <root id="archive" name="ch12mail_pool_war.war">
+      <element id="artifact" artifact-name="ch12mail_pool:war exploded" />
+    </root>
+  </artifact>
+</component>
